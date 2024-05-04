@@ -73,12 +73,12 @@ export const About = () => {
             </p>
           </Reveal>
           <Reveal>
+            <SectionHeader title="Zero to lunch" dir="l" />
             <p className={styles.aboutText}>
-              <SectionHeader title="Zero to lunch" dir="l" />
               <br />
               Projects Speak for Themselves:
               <br />
-              We’ve successfully delivered diverse applications, from
+              We have successfully delivered diverse applications, from
               comprehensive SaaS systems to dynamic web apps and pioneering
               blockchain platforms. Each project exemplifies our commitment to
               excellence and innovation.
