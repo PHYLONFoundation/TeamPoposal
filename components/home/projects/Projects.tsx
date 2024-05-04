@@ -1,6 +1,6 @@
-import { SectionHeader } from "@/components/utils/SectionHeader";
-import { Project } from "./Project";
-import styles from "./projects.module.scss";
+import { SectionHeader } from '@/components/utils/SectionHeader'
+import { Project } from './Project'
+import styles from './projects.module.scss'
 
 export const Projects = () => {
   return (
@@ -9,21 +9,21 @@ export const Projects = () => {
 
       <div className={styles.projects}>
         {projects.map((project) => {
-          return <Project key={project.title} {...project} />;
+          return <Project key={project.title} {...project} />
         })}
       </div>
     </section>
-  );
-};
+  )
+}
 
 const projects = [
   {
-    title: "Classified",
-    imgSrc: "/project-imgs/agency-listing.png",
-    code: "#",
-    projectLink: "#",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
-    description: "An Insurance Agency Listing Web Application.",
+    title: 'Phylon',
+    imgSrc: '/project-imgs/phylon.png',
+    code: '#',
+    projectLink: 'https://phylon.io/',
+    tech: ['React', 'Nextjs', 'Threejs', 'GLSL', 'Tailwind'],
+    description: 'A Decentralized Escro Platform.',
     modalContent: (
       <>
         <p>
@@ -31,43 +31,19 @@ const projects = [
           components and base layout from a mock-up.
         </p>
         <p>
-          The tech stack is based on Nextjs with the custom tailwind components,
-          connected to a Prisma backend.
+          The tech stack is based on Threejs for 3D experience and using OpenGL
+          Shading Language made highly optimzation on performance.
         </p>
       </>
     ),
   },
   {
-    title: "Elancerz",
-    imgSrc: "/project-imgs/elancerz.png",
-    code: "https://www.github.com",
-    projectLink: "https://elancerz.com/",
-    tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Worked as a front-end developer and created dynamic reusable
-          components, integrated calendly, messaging and project management
-          features.
-        </p>
-        <p>
-          The tech stack is based on Nextjs with the custom Styled components,
-          connected to a Laravel backend, with data stored in Mysql.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Agency Iron Admin",
-    imgSrc: "/project-imgs/agency-iron-crm.png",
-    code: "https://www.github.com",
-    // projectLink: "https://agency-iron-crm.herokuapp.com/",
-    projectLink: "#",
-    tech: ["React", "MUI", "MongoDB", "Postgres", "Python"],
-    description:
-      "A Dashboard for clients and admin of Rocky Mountain West Insurance LLC. using Vuejs and re-worked using Reactjs.",
+    title: 'INfraFund',
+    imgSrc: '/project-imgs/infraFund.png',
+    code: 'https://www.github.com',
+    projectLink: 'https://www.infrafund.net/',
+    tech: ['React', 'MUI', 'MongoDB', 'Postgres', 'Python'],
+    description: 'WEB 3.0 CROWDFUNDING FOR INFRASTRUCTURE',
     modalContent: (
       <>
         <p>
@@ -86,34 +62,75 @@ const projects = [
     ),
   },
   {
-    title: "WorshipHIM",
-    imgSrc: "/project-imgs/wh_app.png",
-    code: "https://www.github.com",
-    projectLink:
-      "https://play.google.com/store/apps/details?id=com.ellinx.lightapps.worshiphim&hl=en&gl=US",
-    tech: ["React", "React Native", "Styled Components", "Android"],
-    description:
-      "WorshipHIM is a chord and lyrics app developed to help ease everyone in their worship to God.",
+    title: 'Smart City',
+    imgSrc: '/project-imgs/smart-city.png',
+    code: 'https://www.github.com',
+    projectLink: '#',
+    tech: ['React', 'Nextjs', 'Threejs', 'Expressjs', 'MongoDB'],
+    description: 'A 3D experience Innovative electricity Optimization app.',
     modalContent: (
       <>
         <p>
-          WorshipHIM is a chord and lyrics app developed to help ease everyone
-          in their worship to God. So that all may know, from the rising of the
-          sun to its setting, That there is none besides God. He is the Lord and
-          there&apos;s no other! Praise Him, Worship Him!
+          Worked as a Full-Stack developer and created dynamic reusable
+          components, integrated calendly, messaging and project management
+          features.
         </p>
-        <p>This is a very fun project that i made using React Native.</p>
+        <p>
+          The tech stack is based on Nextjs with the custom Styled components,
+          connected to a Node Express backend, with data stored in MongoDB.
+        </p>
       </>
     ),
   },
   {
-    title: "WorshipHIM Landing Page",
-    imgSrc: "/project-imgs/worshiphim.png",
-    code: "https://www.github.com",
-    projectLink: "https://worshiphim.vercel.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Google Play Scrapper", "Ko-Fi"],
+    title: 'Social Order',
+    imgSrc: '/project-imgs/social-order.png',
+    code: 'https://www.github.com',
+    projectLink: 'https://qa.socialorder.io/',
+    tech: ['React', 'Nextjs', 'Threejs', 'Expressjs', 'MongoDB'],
+    description: 'A Web3 Social Media App.',
+    modalContent: (
+      <>
+        <p>
+          Worked as a Full-Stack developer and created dynamic reusable
+          components, integrated calendly, messaging and project management
+          features.
+        </p>
+        <p>
+          The tech stack is based on Nextjs with the custom Styled components,
+          connected to a Node Express backend, with data stored in MongoDB.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: 'Web3.0 Extension',
+    imgSrc: '/project-imgs/extension.jpg',
+    code: 'https://www.github.com',
+    projectLink: 'https://worshiphim.vercel.app/',
+    tech: ['React', 'Nextjs', 'Web3', 'Nestjs', 'Framer-motion'],
+    description: 'ease of buying from Amazon using Crypto ',
+    modalContent: (
+      <>
+        <p>
+          A chrome Extension that ease your purchase from Amazon using Crypto
+        </p>
+        <p>
+          I integrated ko-fi donation and uses Template for this Nextjs Project.
+          I also use a plugin for scrapping data from our google play to display
+          directly on the landing page.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: 'WorshipHIM Landing Page',
+    imgSrc: '/project-imgs/worshiphim.png',
+    code: 'https://www.github.com',
+    projectLink: 'https://worshiphim.vercel.app/',
+    tech: ['React', 'Nextjs', 'Tailwind', 'Google Play Scrapper', 'Ko-Fi'],
     description:
-      "Landing Page of WorshipHIM mobile application for showcasing feature rich and tools of the app.",
+      'Landing Page of WorshipHIM mobile application for showcasing feature rich and tools of the app.',
     modalContent: (
       <>
         <p>
@@ -127,38 +144,25 @@ const projects = [
       </>
     ),
   },
+
   {
-    title: "Portfolio v.2",
-    imgSrc: "/project-imgs/portfolio-01.png",
-    code: "https://github.com/jcdevz-dev/portfolio",
-    projectLink: "#",
-    tech: ["React", "Styled Components", "Typescript", "Gatsby"],
-    description: "First Portfolio Made with React JS",
+    title: 'WorshipHIM',
+    imgSrc: '/project-imgs/wh_app.png',
+    code: 'https://www.github.com',
+    projectLink: '#',
+    tech: ['React', 'React Native', 'Styled Components', 'Android'],
+    description:
+      'WorshipHIM is a chord and lyrics app developed to help ease everyone in their worship to God.',
     modalContent: (
       <>
         <p>
-          This is my second version of my portfolio that i made to showcase my
-          projects.
+          WorshipHIM is a chord and lyrics app developed to help ease everyone
+          in their worship to God. So that all may know, from the rising of the
+          sun to its setting, That there is none besides God. He is the Lord and
+          there&apos;s no other! Praise Him, Worship Him!
         </p>
-        <p>Trying out gatsby and creating my second version of portfolio</p>
+        <p>This is a very fun project that i made using React Native.</p>
       </>
     ),
   },
-  {
-    title: "Portfolio v.1",
-    imgSrc: "/project-imgs/portfolio-00.png",
-    code: "https://github.com/jcdevz-dev/jc-portfolio",
-    projectLink: "https://jc-devera.vercel.app/",
-    tech: ["React", "Styled Components", "Typescript"],
-    description: "First Portfolio Made with React JS",
-    modalContent: (
-      <>
-        <p>
-          This is my first version of my portfolio that i made to showcase my
-          projects.
-        </p>
-        <p>First step for learning React JS and creating my portfolio</p>
-      </>
-    ),
-  },
-];
+]

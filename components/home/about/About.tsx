@@ -1,46 +1,109 @@
-import { MyLinks } from "@/components/nav/components/MyLinks";
-import { Reveal } from "@/components/utils/Reveal";
-import { SectionHeader } from "@/components/utils/SectionHeader";
-import styles from "./about.module.scss";
-import { Stats } from "./Stats";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { MyLinks } from '@/components/nav/components/MyLinks'
+import { Reveal } from '@/components/utils/Reveal'
+import { SectionHeader } from '@/components/utils/SectionHeader'
+import styles from './about.module.scss'
+import { Stats } from './Stats'
+import { AiFillCode, AiOutlineArrowRight } from 'react-icons/ai'
 
 export const About = () => {
   return (
     <section id="about" className="section-wrapper">
-      <SectionHeader title="About" dir="l" />
+      <SectionHeader title="Empower Your Vision" dir="l" />
       <div className={styles.about}>
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Howdy! I&apos;m John Carlo Devera, and I&apos;m a Bachelor of Science in Information Technology graduate.
-              <br/><br/>
-              I have experience working in both the mobile and web development worlds, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive websites that provide a great user experience.
-             </p>
-          </Reveal>
-          <Reveal>
-            <p className={styles.aboutText}>
-              My skills include HTML, CSS, JavaScript, and various frontend frameworks like React and Vue.js. 
-              I&apos;ve also worked with backend technologies like Node.js, Firebase, MongoDB and PHP/Laravel , allowing me to build full-stack applications.
+              Short on Time to Design Your App?
+              <br />
+              Let Us Handle It!
+              <br />
+              <br />
+              Whether you're crafting a cutting-edge cryptocurrency application,
+              a dynamic web app, or a robust SaaS system, our professional
+              design team is here to bring your vision to life. <br />
+              <AiFillCode style={{ fontSize: '22px', color: `#bd5fff` }} />
+              Send Us Your App Details: Start by sharing your vision and
+              requirements.
+              <br />
+              <br />- Preview Your Design Prototype: Approve the design only
+              when it meets your expectations. - We Build and Publish Your App:
+              From initial coding to final launch, we manage everything.
+              <br />- Enjoy Free Lifetime Technical Support: Continuous support
+              to ensure your app runs smoothly. At Onesie, we take you from zero
+              to launch, handling every detail so you can focus on what
+              matters—your business.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              When I&apos;m not coding, I enjoy digital painting. 
-              I believe that maintaining a healthy work-life balance is crucial for staying productive and motivated.
+              Our primary focus lies in crafting immersive 3D experiences, an
+              area at the forefront of contemporary design trends. We have
+              deliberately chosen to specialize in this field because it demands
+              a unique blend of artistic flair and technical prowess. Excelling
+              in both realms is a rarity, yet We possess a rare combination of
+              aesthetic sensibility and advanced mathematical and development
+              skills. This multidisciplinary approach allows us to bring
+              unparalleled depth and innovation to our work, setting us apart in
+              the competitive landscape of digital design and development.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m always looking for new challenges and opportunities to learn and grow as a developer. 
-              If you&apos;re interested in working together or have any questions, please don&apos;t hesitate to get in touch!
-              🔗
+              Transform Your Ideas into Applications with Onesie Team App
+              Builder
+              <br />
+              Feature-Rich Solutions Tailored for Your Needs:
+            </p>
+          </Reveal>
+          <Reveal>
+            <p className={styles.aboutText}>
+              - All-in-One Package: From the user interface to backend
+              infrastructure and innovative blockchain solutions, get everything
+              you need to build your application seamlessly.
+              <br />
+              - Custom Design System: Our professional design team creates
+              visually appealing and functional designs tailored to your
+              specific requirements.
+              <br />
+              - Advanced Frontend & Backend Systems: We develop robust frontend
+              and backend systems that are scalable, secure, and efficient.
+              <br />- Blockchain Innovation Core: Leverage our blockchain
+              expertise to integrate cutting-edge decentralized technologies
+              into your application.
+            </p>
+          </Reveal>
+          <Reveal>
+            <p className={styles.aboutText}>
+              <SectionHeader title="Zero to lunch" dir="l" />
+              <br />
+              Projects Speak for Themselves:
+              <br />
+              We’ve successfully delivered diverse applications, from
+              comprehensive SaaS systems to dynamic web apps and pioneering
+              blockchain platforms. Each project exemplifies our commitment to
+              excellence and innovation.
+              <br />
+            </p>
+          </Reveal>
+          <Reveal>
+            <p className={styles.aboutText}>
+              Why Choose Onesie?
+              <br />
+              - See Before You Commit: Review your design prototype and make
+              sure it aligns with your vision before approval.
+              <br />
+              - Zero to Launch: We handle everything from design to deployment,
+              ensuring a smooth transition through all phases of development.
+              <br />
+              - Lifetime Technical Support: Benefit from our ongoing support and
+              updates at no additional cost.
+              <br />
             </p>
           </Reveal>
           <Reveal>
             <div className={styles.links}>
               <div className={styles.linksText}>
-                <span>My links</span>
+                <span>Our links</span>
                 <AiOutlineArrowRight />
               </div>
               <MyLinks />
@@ -50,5 +113,5 @@ export const About = () => {
         <Stats />
       </div>
     </section>
-  );
-};
+  )
+}
