@@ -18,7 +18,7 @@ export const About = () => {
               Let Us Handle It!
               <br />
               <br />
-              Whether you're crafting a cutting-edge cryptocurrency application,
+              Whether you are crafting a cutting-edge cryptocurrency application,
               a dynamic web app, or a robust SaaS system, our professional
               design team is here to bring your vision to life. <br />
               <AiFillCode style={{ fontSize: '22px', color: `#bd5fff` }} />
