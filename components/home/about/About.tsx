@@ -18,9 +18,10 @@ export const About = () => {
               Let Us Handle It!
               <br />
               <br />
-              Whether you are crafting a cutting-edge cryptocurrency application,
-              a dynamic web app, or a robust SaaS system, our professional
-              design team is here to bring your vision to life. <br />
+              Whether you are crafting a cutting-edge cryptocurrency
+              application, a dynamic web app, or a robust SaaS system, our
+              professional design team is here to bring your vision to life.{' '}
+              <br />
               <AiFillCode style={{ fontSize: '22px', color: `#bd5fff` }} />
               Send Us Your App Details: Start by sharing your vision and
               requirements.
@@ -73,17 +74,19 @@ export const About = () => {
             </p>
           </Reveal>
           <Reveal>
-            <SectionHeader title="Zero to lunch" dir="l" />
-            <p className={styles.aboutText}>
-              <br />
-              Projects Speak for Themselves:
-              <br />
-              We have successfully delivered diverse applications, from
-              comprehensive SaaS systems to dynamic web apps and pioneering
-              blockchain platforms. Each project exemplifies our commitment to
-              excellence and innovation.
-              <br />
-            </p>
+            <div>
+              <SectionHeader title="Zero to lunch" dir="l" />
+              <p className={styles.aboutText}>
+                <br />
+                Projects Speak for Themselves:
+                <br />
+                We have successfully delivered diverse applications, from
+                comprehensive SaaS systems to dynamic web apps and pioneering
+                blockchain platforms. Each project exemplifies our commitment to
+                excellence and innovation.
+                <br />
+              </p>
+            </div>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
