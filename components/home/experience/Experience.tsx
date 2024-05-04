@@ -31,7 +31,7 @@ const experience = [
     tech: [],
   },
   {
-    title: 'Amir Shayan Shayeganfar.',
+    title: 'OneSie.',
     position: 'Head of Product Design',
     time: 'Apr 2022 - Now',
     location: '',

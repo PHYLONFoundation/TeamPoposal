@@ -41,7 +41,7 @@ export const SideBar = () => {
               : (document.location.hash = '')
           }}
         >
-          PH<span>.</span>
+          OS<span>.</span>
         </span>
         <motion.a
           initial={{ x: -70 }}
@@ -73,7 +73,7 @@ export const SideBar = () => {
           onClick={() => setSelected('experience')}
           className={selected === 'experience' ? styles.selected : ''}
         >
-          Exp.
+          TEAM
         </motion.a>
         <motion.a
           initial={{ x: -70 }}
